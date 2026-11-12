@@ -14,5 +14,15 @@
     "ios": "expo start --ios",
     "web": "expo start --web"
   },
-  "private": true
+  "private": true,
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": ">=12",
+      "onFail": "download"
+    }
+  },
+  "devDependencies": {
+    "expo-doctor": "1.21.8"
+  }
 }
